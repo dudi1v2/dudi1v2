@@ -1,6 +1,75 @@
-body {font-family: Verdana; font-size: 18px}
-h1 {font-size: 24px}
-span {font-weight:bold}
-.KLASA{color: green }
-.bodzio{color: red }
-.tlo{background-image: 		<background-image: C:\Users\Student\Documents\Konrad_Duda_Bodzio\lab2\Lab2-PSI-szablon\szablon lab 2\obrazy\logo.png}
+header {
+    background-color: #BFACA4;
+    margin: 0 auto;
+}
+header>div
+{
+height:150px; padding:25px 0 0 260px;
+box-sizing: border-box;
+}
+.part {width:1024px; margin: auto}
+.logos {text-decoration: overline; }
+.mmenu {
+    background-color: #A6818F;
+    width: 15%;
+    float: left;
+    padding: 1px 0px;
+    border-right: 1px solid black;
+    font-size: large;
+    box-sizing: border-box;
+    height: 100%
+}
+
+footer {
+    background-color: #244C4C;
+    height: 50px;
+    text-align: center;
+    min-height: 100px;
+    width: 100%;
+    //position: absolute;
+    bottom: 0;
+}
+article {
+    background-color: #FDDBBF ;
+    min-height: 100%;
+}
+nav>ul {margin:0; padding:0}
+nav>ul a {text-decoration:none}
+nav>ul a:hover {background-color:orange;}
+section {float: left; width:85% ;padding: 0px; box-sizing: border-box; height:100%; }
+.tytuly {
+    font-style: oblique;
+    text-align: center;
+    margin-top: 1%;
+}
+.arytykly {
+    margin-left: 2%;
+}
+.main {
+    height: 100%;
+    
+}
+
+
+
+html, body {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
